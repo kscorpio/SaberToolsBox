@@ -6,3 +6,4 @@ Many frequently-used utils class for iOS
 - [ ] STBColorUtil		-- unfinished 
 - [ ] STBDataUtil		-- unfinished 
 
+ :mailbox:
