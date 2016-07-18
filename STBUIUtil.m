@@ -1,5 +1,5 @@
 //
-//  UIUtil.m
+//  STBUIUtil.m
 //   
 //
 //  Created by kscorpio on 16/4/13.
@@ -20,9 +20,9 @@
 //  |      |I
 //  |      |I
 //   \____/ I          
-#import "UIUtil.h"
+#import "STBUIUtil.h"
 
-@implementation UIUtil
+@implementation STBUIUtil
 /*!
  *  @author kscorpio, 15-11-11
  *

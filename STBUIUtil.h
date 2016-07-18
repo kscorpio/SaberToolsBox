@@ -1,5 +1,5 @@
 //
-//  UIUtil.h
+//  STBUIUtil.h
 //   
 //
 //  Created by liu on 16/4/13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface UIUtil : NSObject
+@interface STBUIUtil : NSObject
 /*!
  *  @author kscorpio, 15-11-11
  *
