@@ -24,15 +24,13 @@
 
 @implementation STBUIUtil
 /*!
- *  @author kscorpio, 15-11-11
- *
  *  @brief  UICOLOR 转 uiimage
  *
  *  @param color
  *
  *  @return image
  */
-+ (UIImage *) createImageWithColor: (UIColor *) color
++ (UIImage *)imageByColor: (UIColor *) color
 {
     CGRect rect=CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
@@ -45,8 +43,6 @@
     return theImage;
 }
 /*!
- *  @author kscorpio, 16-04-26
- *
  *  @brief  NSBundle 方式读取图片文件，imagename容易造成内存无法释放
  *
  *  @param name 图片名
@@ -60,15 +56,13 @@
     return image;
 }
 /*!
- *  @author kscorpio, 16-04-23
- *
  *  @brief 图片转为base64 nsstring
  *
  *  @param image
  *
  *  @return base64 nsstring
  */
-+ (NSString *)UIImageToBase64Str:(UIImage *) image
++ (NSString *)imageToBase64:(UIImage *) image
 {
     if (image==nil) {
         return nil;
@@ -78,15 +72,13 @@
     return encodedImageStr;
 }
 /*!
- *  @author kscorpio, 16-04-23
- *
  *  @brief 图片转为base64 nsstring 转图片
  *
  *  @param _encodedImageStr
  *
  *  @return
  */
-+ (UIImage *)Base64StrToUIImage:(NSString *)_encodedImageStr
++ (UIImage *)Base64ToImage:(NSString *)_encodedImageStr
 {
     if (_encodedImageStr==nil) {
         return nil;
