@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AB7AF981F14C54F00D59856 /* SaberToolsBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7AF971F14C54F00D59856 /* SaberToolsBox.m */; };
+		5AB7AF991F14C54F00D59856 /* SaberToolsBox.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AB7AF961F14C54F00D59856 /* SaberToolsBox.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AB7AF911F14C54F00D59856 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5AB7AF991F14C54F00D59856 /* SaberToolsBox.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AB7AF931F14C54F00D59856 /* libSaberToolsBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSaberToolsBox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB7AF961F14C54F00D59856 /* SaberToolsBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaberToolsBox.h; sourceTree = "<group>"; };
+		5AB7AF971F14C54F00D59856 /* SaberToolsBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaberToolsBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB7AF901F14C54F00D59856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AB7AF8A1F14C54F00D59856 = {
+			isa = PBXGroup;
+			children = (
+				5AB7AF951F14C54F00D59856 /* SaberToolsBox */,
+				5AB7AF941F14C54F00D59856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AB7AF941F14C54F00D59856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB7AF931F14C54F00D59856 /* libSaberToolsBox.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB7AF951F14C54F00D59856 /* SaberToolsBox */ = {
+			isa = PBXGroup;
+			children = (
+				5AB7AF961F14C54F00D59856 /* SaberToolsBox.h */,
+				5AB7AF971F14C54F00D59856 /* SaberToolsBox.m */,
+			);
+			path = SaberToolsBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB7AF921F14C54F00D59856 /* SaberToolsBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB7AF9C1F14C54F00D59856 /* Build configuration list for PBXNativeTarget "SaberToolsBox" */;
+			buildPhases = (
+				5AB7AF8F1F14C54F00D59856 /* Sources */,
+				5AB7AF901F14C54F00D59856 /* Frameworks */,
+				5AB7AF911F14C54F00D59856 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaberToolsBox;
+			productName = SaberToolsBox;
+			productReference = 5AB7AF931F14C54F00D59856 /* libSaberToolsBox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB7AF8B1F14C54F00D59856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.kscorpio;
+				TargetAttributes = {
+					5AB7AF921F14C54F00D59856 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6FYFJZ39LD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5AB7AF8E1F14C54F00D59856 /* Build configuration list for PBXProject "SaberToolsBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AB7AF8A1F14C54F00D59856;
+			productRefGroup = 5AB7AF941F14C54F00D59856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB7AF921F14C54F00D59856 /* SaberToolsBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB7AF8F1F14C54F00D59856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB7AF981F14C54F00D59856 /* SaberToolsBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AB7AF9A1F14C54F00D59856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AB7AF9B1F14C54F00D59856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AB7AF9D1F14C54F00D59856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6FYFJZ39LD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5AB7AF9E1F14C54F00D59856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6FYFJZ39LD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AB7AF8E1F14C54F00D59856 /* Build configuration list for PBXProject "SaberToolsBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB7AF9A1F14C54F00D59856 /* Debug */,
+				5AB7AF9B1F14C54F00D59856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB7AF9C1F14C54F00D59856 /* Build configuration list for PBXNativeTarget "SaberToolsBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB7AF9D1F14C54F00D59856 /* Debug */,
+				5AB7AF9E1F14C54F00D59856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB7AF8B1F14C54F00D59856 /* Project object */;
+}
