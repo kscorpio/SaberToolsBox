@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		5AB7AF981F14C54F00D59856 /* SaberToolsBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7AF971F14C54F00D59856 /* SaberToolsBox.m */; };
 		5AB7AF991F14C54F00D59856 /* SaberToolsBox.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AB7AF961F14C54F00D59856 /* SaberToolsBox.h */; };
+		5AB7AFA61F14C5AC00D59856 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7AF9F1F14C5AC00D59856 /* README.md */; };
+		5AB7AFA71F14C5AC00D59856 /* STBUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7AFA11F14C5AC00D59856 /* STBUIUtil.m */; };
+		5AB7AFA81F14C5AC00D59856 /* STCheckUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7AFA31F14C5AC00D59856 /* STCheckUtil.m */; };
+		5AB7AFA91F14C5AC00D59856 /* STGeneralUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7AFA51F14C5AC00D59856 /* STGeneralUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,13 @@
 		5AB7AF931F14C54F00D59856 /* libSaberToolsBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSaberToolsBox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB7AF961F14C54F00D59856 /* SaberToolsBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaberToolsBox.h; sourceTree = "<group>"; };
 		5AB7AF971F14C54F00D59856 /* SaberToolsBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaberToolsBox.m; sourceTree = "<group>"; };
+		5AB7AF9F1F14C5AC00D59856 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AB7AFA01F14C5AC00D59856 /* STBUIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBUIUtil.h; sourceTree = "<group>"; };
+		5AB7AFA11F14C5AC00D59856 /* STBUIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBUIUtil.m; sourceTree = "<group>"; };
+		5AB7AFA21F14C5AC00D59856 /* STCheckUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCheckUtil.h; sourceTree = "<group>"; };
+		5AB7AFA31F14C5AC00D59856 /* STCheckUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCheckUtil.m; sourceTree = "<group>"; };
+		5AB7AFA41F14C5AC00D59856 /* STGeneralUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STGeneralUtil.h; sourceTree = "<group>"; };
+		5AB7AFA51F14C5AC00D59856 /* STGeneralUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STGeneralUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,13 @@
 		5AB7AF951F14C54F00D59856 /* SaberToolsBox */ = {
 			isa = PBXGroup;
 			children = (
+				5AB7AF9F1F14C5AC00D59856 /* README.md */,
+				5AB7AFA01F14C5AC00D59856 /* STBUIUtil.h */,
+				5AB7AFA11F14C5AC00D59856 /* STBUIUtil.m */,
+				5AB7AFA21F14C5AC00D59856 /* STCheckUtil.h */,
+				5AB7AFA31F14C5AC00D59856 /* STCheckUtil.m */,
+				5AB7AFA41F14C5AC00D59856 /* STGeneralUtil.h */,
+				5AB7AFA51F14C5AC00D59856 /* STGeneralUtil.m */,
 				5AB7AF961F14C54F00D59856 /* SaberToolsBox.h */,
 				5AB7AF971F14C54F00D59856 /* SaberToolsBox.m */,
 			);
@@ -124,7 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB7AFA61F14C5AC00D59856 /* README.md in Sources */,
 				5AB7AF981F14C54F00D59856 /* SaberToolsBox.m in Sources */,
+				5AB7AFA71F14C5AC00D59856 /* STBUIUtil.m in Sources */,
+				5AB7AFA81F14C5AC00D59856 /* STCheckUtil.m in Sources */,
+				5AB7AFA91F14C5AC00D59856 /* STGeneralUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +282,7 @@
 				5AB7AF9E1F14C54F00D59856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
