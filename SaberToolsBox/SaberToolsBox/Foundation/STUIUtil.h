@@ -29,7 +29,7 @@
  *
  *  @return UIImage
  */
-+ (UIImage *)imageByName:(NSString *)name type:(NSString *)type;
++ (UIImage *)imageWithBundleName:(NSString *)name type:(NSString *)type;
 /*!
  *  @brief 图片转为base64 nsstring
  *
@@ -46,6 +46,7 @@
  *  @return
  */
 + (UIImage *)Base64ToImage:(NSString *)_encodedImageStr;
+
 @end
 @interface UIColor (STUIUtil)
 + (UIColor *)hexColor:(NSInteger)hexValue;

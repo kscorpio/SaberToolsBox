@@ -57,7 +57,7 @@
  *
  *  @return UIImage
  */
-+ (UIImage*)imageByName:(NSString*)name type:(NSString*)type
++ (UIImage*)imageWithBundleName:(NSString*)name type:(NSString*)type
 {
     NSString* p = [[NSBundle mainBundle] pathForResource:name ofType:type];
     UIImage* image = [UIImage imageWithContentsOfFile:p];

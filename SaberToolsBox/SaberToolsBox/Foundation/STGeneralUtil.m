@@ -3,7 +3,12 @@
 //
 //  Created by KSCORPIO on 2017/2/16.
 //
-
+//  Log:
+//   1. 2017-10-12 增加当前语言
+//
+//
+//
+//
 #import "STGeneralUtil.h"
 #import <UIKit/UIKit.h>
 #import <sys/utsname.h>
@@ -220,5 +225,8 @@
 + (NSString*)osVersion
 {
     return [NSString stringWithFormat:@"iOS %@", [[UIDevice currentDevice] systemVersion]];
+}
++(NSString*)currentLanguage{
+    return  ([[NSLocale preferredLanguages] objectAtIndex:0]);
 }
 @end

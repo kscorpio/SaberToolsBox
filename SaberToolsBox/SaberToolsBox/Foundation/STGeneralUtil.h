@@ -3,7 +3,8 @@
 //
 //  Created by KSCORPIO on 2017/2/16.
 //
-
+//
+//   -------2017-10-12
 #import <Foundation/Foundation.h>
 
 @interface STGeneralUtil : NSObject
@@ -47,5 +48,10 @@
  *
  */
 + (NSString*)osVersion;
+/**
+ *  获取当前系统语言
+ *  @return
+ */
++(NSString*)currentLanguage;
 
 @end
