@@ -1,14 +1,17 @@
 //
-//  STBUIUtil.h
+//  STUIUtil.h
 //   
 //
 //  Created by liu on 16/4/13.
 //  Copyright © 2016年  All rights reserved.
 //
+//   ------ 2017-10-12
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface STBUIUtil : NSObject
+
+
+@interface UIImage (STUIUtil)
 /*!
  *  @brief  UICOLOR 转 uiimage
  *
@@ -43,4 +46,8 @@
  *  @return
  */
 + (UIImage *)Base64ToImage:(NSString *)_encodedImageStr;
+@end
+@interface UIColor (STUIUtil)
++ (UIColor *)hexColor:(NSInteger)hexValue;
++ (UIColor *)colorWithR:(CGFloat)red g:(CGFloat)green b:(CGFloat)blue a:(CGFloat)alpha;
 @end
