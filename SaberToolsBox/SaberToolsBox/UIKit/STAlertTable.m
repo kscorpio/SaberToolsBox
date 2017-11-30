@@ -153,7 +153,7 @@
         
         
     }
-    cell.textLabel.text=[NSString stringWithFormat:@" %ld",indexPath.row];
+    cell.textLabel.text=[NSString stringWithFormat:@" %d",(int)indexPath.row];
    
     return  cell;
  }
